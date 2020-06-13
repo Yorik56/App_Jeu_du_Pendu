@@ -1,0 +1,58 @@
+.MaskedWord{
+  display: block;
+  width: 100%;
+  border: solid;
+  text-align: center;
+  margin-top: 50px;
+  padding: 5%;
+  letter-spacing: .9rem;
+}
+
+.pendu{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pendu > .card{
+  flex: 1 1 calc(40% / 6 - 0.4em);
+  outline: 0.08em solid red;
+  margin: 0.2em;
+  display: flex;
+  cursor: default;
+  width: 50px;
+  height: 50px;
+}
+
+.untested{
+  background: white;
+}
+
+.tested{
+  background: grey;
+}
+
+.letter{
+  margin: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
